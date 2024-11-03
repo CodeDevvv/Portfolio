@@ -365,11 +365,25 @@ b {
   font-size: 64px;
   border-radius: 5px;
   transition: 0.5s;
+  position: relative;
 }
 
 .SkillBox:hover {
   transform: scale(1.2);
   box-shadow: 0 2px 8px 0 #f8d90f;
+}
+
+.SkillBox:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -20px;
+  font-size: 16px;
+  color: #f8d90f;
+  white-space: nowrap;
+  background: #333;
+  padding: 4px 8px;
+  border-radius: 4px;
+  opacity: 0.9;
 }
 
 .SkillsHeading {
