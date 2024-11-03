@@ -10,7 +10,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
 
     OurVerseDesc: "OurVerse is a video chat application that allows users to connect and communicate in real time. It provides a user-friendly interface, enabling users to start video calls, invite others, and manage their audio and video settings easily.",
     OurVerseGithub: "https://github.com/CodeDevvv/Ourverse.git",
-    OurVerseWebsite: "",
+    OurVerseWebsite: "https://ourverse-qkks.onrender.com/",
 
     AtmSimulatorDesc: "This ATM Simulation Application is built using Java, Swing for the graphical user interface, and SQL for database management. It provides users with functionalities similar to an actual ATM, including balance inquiry, deposit, withdrawal, and transaction history. ",
     AtmSimulatorGithub: "https://github.com/CodeDevvv/ATMSystemSimulator.git",
@@ -18,7 +18,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
 
     NoteProDesc: "NotePro offers a versatile platform for all your note-taking needs. With a sleek frontend built using Vite and React, and a robust backend powered by Supabase, NotePro provides secure user authentication and encrypted storage for your notes.",
     NoteProGithub: "https://github.com/CodeDevvv/NotePro.git",
-    NoteProWebsite: "",
+    NoteProWebsite: "https://note-pro-five.vercel.app/",
 
     QuickBiteDesc: "QuickBite is a fully responsive web-based food management system designed to simplify online food ordering and management.",
     QuickBiteGithub: "https://github.com/CodeDevvv/QuickBite.git",
